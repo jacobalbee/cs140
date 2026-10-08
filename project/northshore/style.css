@@ -1,0 +1,20 @@
+@import url("https://fonts.googleapis.com/css2?family=Libre+Caslon+Condensed:ital,wght@0,400;1,400&display=swap");
+
+body {
+  font-family: "Libre Caslon Condensed", serif;
+  color: #5c5c5c;
+  font-size: 12pt;
+  background-color: #fffdd4
+}
+
+.heading {
+    color: #000000;
+}
+
+#important {
+    color: #000000;
+}
+
+#unimportant {
+    color: #999898;
+}
