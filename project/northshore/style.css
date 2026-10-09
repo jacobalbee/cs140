@@ -11,11 +11,15 @@ body {
     color: #000000;
 }
 
-#important {
+.important {
     color: #000000;
 }
 
 #unimportant {
+    color: #999898;
+}
+
+#unimportantexample {
     color: #999898;
 }
 
