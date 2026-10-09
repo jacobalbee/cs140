@@ -2,7 +2,7 @@
 
 body {
   font-family: "Libre Caslon Condensed", serif;
-  color: #5c5c5c;
+  color: #454545;
   font-size: 12pt;
   background-color: #fffdd4
 }
@@ -18,3 +18,8 @@ body {
 #unimportant {
     color: #999898;
 }
+
+a:link {color: BLUE;}
+a:visited {color: PURPLE;}
+a:hover {color: GREEN;}
+a:active {color: BLACK;}
