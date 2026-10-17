@@ -1,3 +1,50 @@
+body {
+    color: #292C2B;
+    background-image: url('photos/prague.jpg');
+    background-size: 150px auto;
+    font-family: Georgia, serif;
+    margin: 0;
+}
+
 img {
     width: 100%;
+}
+
+nav ul {
+    display: flex;
+    gap: 0.5rem;
+    list-style-image: url('photos/phage.png');
+    list-style-position: inside;
+    font-size: 0.6rem;
+}
+
+nav {
+    width: 100%;
+    box-sizing: border-box;
+    background-color: #557C9A;
+    padding: 1rem;
+    margin-bottom: 5%;
+}
+
+.content-box {
+    background-color: #F5F0E6;
+    margin: 0% 10%;
+    padding: 5%;
+    border-radius: 10px;
+}
+
+a {
+    color: white;
+}
+
+footer {
+    color: white;
+}
+
+.link {
+    color: blue;
+}
+
+.highlight {
+    background-color: #A64535;
 }
