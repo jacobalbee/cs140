@@ -3,7 +3,9 @@ h1 {
 }
 
 img {
-    width: 
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
 }
 
 body {
@@ -89,16 +91,10 @@ footer {
 }
 
 
-.card img {
-    width: 100%;
-    height: 220px;
-    object-fit: cover;
-}
-
 .placeholders {
     grid-column: span 2;
     display: grid;
-    gap: 50 px;
+    gap: 50px;
     grid-template-columns: repeat(5, 1fr);
     background-color: #e8dcc6;
     padding: 8px;
