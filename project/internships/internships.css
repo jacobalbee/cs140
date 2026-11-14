@@ -46,6 +46,7 @@ nav ul {
 .table-wrapper {
     max-width: 100%;
     overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
 }
 
 @media (max-width: 400px) {
@@ -56,10 +57,5 @@ nav ul {
   .container {
     flex-direction: column;
   }
-
-  .table-wrapper {
-    overflow-x: auto;
-    -webkit-overflow-scrolling: touch;
-    }   
 }
   
